@@ -5,5 +5,6 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   plugins: [react()],
   build: { //add this property
-      sourcemap: true,
-}})
+      sourcemap: true,},
+  base:"/Keeper-app/"    
+})
